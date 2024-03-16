@@ -11,19 +11,24 @@
 
 ### Установка и Запуск
 1. Клонируйте репозиторий:
-``` git clone https://github.com/Danil5115/RESTful-API-service-for-referral-system..git
 ```
-3. Создание виртуального окружения:
-``` python -m venv venv 
+git clone https://github.com/Danil5115/RESTful-API-service-for-referral-system..git
+```
+2. Создание виртуального окружения:
+```
+python -m venv venv 
 .\venv\Scripts\activate
 ```
 3. Установка зависимостей
-``` pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 5. Перейдите в папку проекта referral_project
 6. Миграции. Примените миграции для создания таблиц в базе данных:
-``` python manage.py migrate
 ```
-8. Запуск сервера:
-``` python manage.py runserver
+python manage.py migrate
+```
+7. Запуск сервера:
+```
+python manage.py runserver
 ```
