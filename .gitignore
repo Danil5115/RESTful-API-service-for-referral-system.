@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Compiled Python files
+*.pyc
+
+# Local development settings
+.env
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
